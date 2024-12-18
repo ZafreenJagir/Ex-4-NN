@@ -156,17 +156,6 @@ print(predictions)
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
 
-```
-
- ## OUTPUT
-
- ![Screenshot 2024-09-30 144653](https://github.com/user-attachments/assets/b11e6b5c-b27f-4746-9da0-f0578c0b6992)
-
-
- ## PROGRAM
-
- 
-```
  import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -193,8 +182,10 @@ print(classification_report(testing_b,predicted_values))
 
 ```
 
+ ## OUTPUT
 
-<H3>Output:</H3>
+ ![Screenshot 2024-09-30 144653](https://github.com/user-attachments/assets/b11e6b5c-b27f-4746-9da0-f0578c0b6992)
+
 
 ![Screenshot 2024-09-30 144903](https://github.com/user-attachments/assets/aae2549f-202b-47fa-86a1-4038cb28a616)
 
